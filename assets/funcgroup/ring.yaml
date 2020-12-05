@@ -1,4 +1,6 @@
 ---
 
-- key: "Ring"
-  query: "[CH4]"
+# Non-ring groups
+# 1
+- key: "-CH3"
+  query: "[CH3D1;!R]"
