@@ -7,4 +7,4 @@
 
 # 1
 - key: "-CH2"
-  query: "[CH2D2;!R]"
+  query: "[CH2D2;R]"
