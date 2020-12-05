@@ -3,4 +3,4 @@
 # Non-ring groups
 # 1
 - key: "-CH3"
-  query: "[CH3D1;!R]"
+  query: "[CH3X4;!R]"
