@@ -1,3 +1,5 @@
 ---
 
-- key: "Ring"
+# 1
+- key: "CH3"
+  query: "[CH3X4; !R]"
