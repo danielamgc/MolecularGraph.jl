@@ -4,3 +4,7 @@
 # 1
 - key: "-CH3"
   query: "[CH3X4;!R]"
+
+# 1
+- key: "-CH2"
+  query: "[CH2X4;!R]"
