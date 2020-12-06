@@ -18,5 +18,9 @@
   query: "[CH1D2;!R]"
 
   # 7ERROR
-  - key: "=C<"
-    query: "[CX3H0;!R]"
+#  - key: "=C<"
+#    query: "[CD3;!R]"
+
+  # 7ERROR
+  - key: "=C<(ring)"
+    query: "[CH0D3;R]"
