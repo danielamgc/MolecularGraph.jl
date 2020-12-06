@@ -25,10 +25,10 @@
 # - key: "-O-(ring)"
 #   query: "[OH0D2;R]"
 
-24
+#24
 - key: ">C=O"
    query: "[CH0D1;!R]=[O]"
 
-25
+#25
  - key: ">C=O(ring)"
    query: "[CH0D1;R]=[O]"
