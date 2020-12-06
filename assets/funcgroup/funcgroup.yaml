@@ -16,3 +16,7 @@
 # 6
 - key: "=CH-"
   query: "[CH1D2;!R]"
+
+  # 7ERROR
+  - key: "=C<"
+    query: "[CX3H0;!R]"
