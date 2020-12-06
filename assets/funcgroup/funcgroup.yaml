@@ -19,11 +19,11 @@
 
 # 22
 - key: "-O-"
-  query: "[OX2H0;!R]"
+  query: "OX2H0;!R"
 
 # 22
  - key: "-O-(ring)"
-   query: "[OX2H0;R]"
+   query: "OX2H0;R"
 
 #24
 #- key: ">C=O"
