@@ -22,7 +22,7 @@
   query: "[SX2;R]"
 
 
- 41
+ #41
   - key: "−S−"
     query: "[SX2;!R]"
 
