@@ -26,9 +26,9 @@
 #   query: "[OH0D2;R]"
 
 #24
- - key: ">C=O"
-   query: "[CX3H0;!R]=[O]"
+ #- key: ">C=O"
+#   query: "[CX3H0;!R]=[O]"
 
 #25
- - key: ">C=O(ring)"
-   query: "[CX3H0;!R]=[O]"
+# - key: ">C=O(ring)"
+#   query: "[CX3H0;!R]=[O]"
