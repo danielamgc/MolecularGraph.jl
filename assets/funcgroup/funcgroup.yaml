@@ -22,9 +22,9 @@
   query: "[SX2;R]"
 
 
-# 41
-#  - key: "−S− (ring)"
-#    query: "[SX2;!R]"
+ 41
+  - key: "−S−"
+    query: "[SX2;!R]"
 
 
 #
