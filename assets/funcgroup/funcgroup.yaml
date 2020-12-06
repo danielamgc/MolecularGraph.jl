@@ -18,8 +18,12 @@
   query: "[CH1D2;!R]"
 
 # 42
-- key: "−S− (ring)"
-  query: "[SX2;R]"
+#- key: "−S− (ring)"
+#  query: "[SX2;R]"
+
+# 42A
+  - key: "−S− (ring)"
+    query: "[SD2;R]"
 
 # 41
 #  - key: "−S− (ring)"
