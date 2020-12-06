@@ -18,9 +18,17 @@
   query: "[CH1D2;!R]"
 
 # 22
-- key: "-O-"
-  query: "[OH0D2;!R]"
+#- key: "-O-"
+#  query: "[OH0D2;!R]"
 
-  # 22
-  - key: "-O-(ring)"
-    query: "[OH0D2;R]"
+# 22
+# - key: "-O-(ring)"
+#   query: "[OH0D2;R]"
+
+#24
+ - key: ">C=O"
+   query: "[CX3H0;!R]=[O]"
+
+#25
+ - key: ">C=O(ring)"
+   query: "[CX3H0;!R]=[O]"
