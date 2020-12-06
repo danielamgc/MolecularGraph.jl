@@ -10,9 +10,13 @@
   query: "[CH2D2;R]"
 
 # 3
-- key: "-CH"
-  query: "[CH1D3;!R]"
+- key: "-CH(ring)"
+  query: "[CH1D3;R]"
 
 # 6
 - key: "=CH-"
-  query: "[CH1D2;!R]"  
+  query: "[CH1D2;!R]"
+
+  # 7
+  - key: "=C<"
+    query: "[CH0D3;!R]"  
