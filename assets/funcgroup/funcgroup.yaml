@@ -17,10 +17,10 @@
 - key: "=CH-"
   query: "[CH1D2;!R]"
 
-  # 7ERROR
-#  - key: "=C<"
-#    query: "[CD3;!R]"
+# 22
+- key: "-O-"
+  query: "[OH0D2;!R]"
 
-  # 7ERROR
-  - key: "=C<(ring)"
-    query: "[CH0D3;R]"
+  # 22
+  - key: "-O-(ring)"
+    query: "[OH0D2;R]"
