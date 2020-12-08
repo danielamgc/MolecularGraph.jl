@@ -5,6 +5,10 @@
 - key: "-CH3"
   query: "[CH3D1;!R]"
 
+- key: "−CH2−"
+ query: "[CH2D2;!R]"
+
+
 # 11
 - key: "-CH2(ring)"
   query: "[CH2D2;R]"
