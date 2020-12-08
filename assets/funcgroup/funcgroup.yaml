@@ -2,8 +2,8 @@
 
 # Non-ring groups
 # 1
-- key: "-CH3"
-  query: "[CH3D1;!R]"
+#- key: "-CH3"
+# query: "[CH3D1;!R]"
 
 #2
 - key: "−CH2−"
