@@ -5,17 +5,19 @@
 - key: "-CH3"
   query: "[CH3D1;!R]"
 
+#2
 - key: "−CH2−"
  query: "[CH2D2;!R]"
-
+ 
+# 3
+- key: "-CH(ring)"
+  query: "[CH1D3;R]"
 
 # 11
 - key: "-CH2(ring)"
   query: "[CH2D2;R]"
 
-# 3
-- key: "-CH(ring)"
-  query: "[CH1D3;R]"
+
 
 # 6
 - key: "=CH-"
