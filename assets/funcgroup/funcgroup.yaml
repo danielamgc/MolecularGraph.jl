@@ -9,10 +9,13 @@
 - key: "−CH2−"
   query: "[CX1H2;!R]"
 
-# 3 duda
+#3
 - key: ">CH-"
-#  query: "[CH1D3;!R]"
   query: "[CX4H1;!R]"
+
+#12
+- key: ">CH- (ring)"
+  query: "[CX4H1;R]"
 
 # 11
 - key: "-CH2-(ring)"
@@ -68,8 +71,3 @@
 #25
 - key: ">C=O (ring)"
   query: "[CX3H0;R]=[O]"
-
-
-#25
-#- key: ">C=O(ring)"
-#  query: "[CH0D1;R]=[O]"
