@@ -41,20 +41,15 @@
 
 #22
 - key: "-O-"
-#  query: "[OH0D2;!R]"
   query: "[OX2H0;!R]"
 
 #23
 - key: "-O- (ring)"
   query: "[OX2H0;R]"
 
-# 23
-#- key: "-O-(ring)"
-#  query: "[OH0D2];R"
-
 #24
-#- key: ">C=O"
-#  query: "[CH0D1;!R]=[O]"
+- key: ">C=O"
+  query: "[CH0D1;!R]=[O]"
 
 #25
 #- key: ">C=O(ring)"
