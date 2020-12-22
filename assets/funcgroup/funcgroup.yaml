@@ -41,7 +41,8 @@
 
 #22
 - key: "-O-"
-  query: "[OH0D2;!R]"
+#  query: "[OH0D2;!R]"
+  query: "[OX2H0;!R]"
 
 # 23
 #- key: "-O-(ring)"
