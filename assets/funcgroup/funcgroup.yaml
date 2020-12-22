@@ -11,8 +11,8 @@
 
 # 3 duda
 - key: ">CH-"
-  query: "[CH1D3;!R]"
-#  query: "[CX4H1;!R]"
+#  query: "[CH1D3;!R]"
+  query: "[CX4H1;!R]"
 
 # 11
 - key: "-CH2-(ring)"
