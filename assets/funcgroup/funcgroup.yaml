@@ -79,3 +79,7 @@
 #30
 - key: "-NH2"
   query: "[NX3H2]"
+
+#31
+- key: ">NH"
+  query: "[NX3H1;!R]"
