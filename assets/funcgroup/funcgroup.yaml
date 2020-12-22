@@ -77,8 +77,9 @@
 
 #25
 - key: ">C=O (ring)"
-  query: "[CX3H0;R]=[O]"
-
+#  query: "[CX3H0;R]=[O]"
+  query: "[#6X3H0;R]=[O]"
+  
 #27
 - key: "-COOH (acid)"
   query: "[CX3H0](=[OX1])[OH]"
