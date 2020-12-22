@@ -66,6 +66,7 @@
 
 #24
 - key: ">C=O"
+  have: ["=C<"]
   query: "[CX3H0;!R]=[O]"
 
 #25
@@ -93,5 +94,5 @@
   query: "[NX2H0;!R]"
 
 #35
-- key: "-N= (ring)"
-  query: "[NH0D2;R]"
+#- key: "-N= (ring)"
+#  query: "[NH0D2;R]"
