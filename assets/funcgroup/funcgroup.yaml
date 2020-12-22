@@ -27,8 +27,7 @@
   query: "[CH1D2;!R]"
 
 # 14
-#- key: "=CH- (ring)"
-#  query: "[CH1D2;R]"
+- key: "=CH- (ring)"
   query: "[#6X3H1;R]"
 
 # 15
@@ -43,6 +42,9 @@
 #- key: "=C="
 #  query: "[*]=[CX2H0;!R]=[*]"
 
+#17
+- key: "-Cl"
+  query: "[Cl]"
 
  # Sulfur
 
