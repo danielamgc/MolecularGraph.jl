@@ -5,7 +5,6 @@
 - key: "-CH3"
   query: "[CH3D1;!R]"
 
-
 #2
 - key: "−CH2−"
   query: "[CX1H2;!R]"
@@ -40,18 +39,18 @@
 
 
 
-#
+#22
 - key: "-O-"
   query: "[OH0D2;!R]"
 
-# 22
-# - key: "-O-(ring)"
-#   query: "[OH0D2];R"
+# 23
+- key: "-O-(ring)"
+  query: "[OH0D2];R"
 
 #24
 #- key: ">C=O"
 #  query: "[CH0D1;!R]=[O]"
 
 #25
-# - key: ">C=O(ring)"
-#   query: "[CH0D1;R]=[O]"
+#- key: ">C=O(ring)"
+#  query: "[CH0D1;R]=[O]"
