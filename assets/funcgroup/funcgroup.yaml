@@ -3,12 +3,12 @@
 # Non-ring groups
 #1
 - key: "-CH3"
- query: "[CH3D1;!R]"
+  query: "[CH3D1;!R]"
 
 #2
 - key: "−CH2−"
- query: "[CX1H2;!R]"
- 
+  query: "[CX1H2;!R]"
+
 # 3
 - key: "-CH(ring)"
   query: "[CH1D3;R]"
@@ -26,6 +26,22 @@
 # 42
 - key: "−S− (ring)"
   query: "[SX2;R]"
+
+ # Sulfur
+
+ # Non-ring groups
+# 1
+- key: "-SH"
+  query: "[H1SD1]"
+
+# 2
+- key: "-S- (non-ring)"
+  query: "[#16X2H0;!R]"
+
+# 3
+- key: "-S- (ring)"
+  query: "[#16X2H0;R]"
+
 
 
  #41
