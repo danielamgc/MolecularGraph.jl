@@ -22,8 +22,9 @@
   query: "[CH1D2;!R]"
 
 # 14
-- key: "=CH-(ring)"
-  query: "[CH1D2;R]"
+- key: "=CH- (ring)"
+#  query: "[CH1D2;R]"
+  query: "[CX3H1;R]"
 
 #7
 - key: "=C<"
