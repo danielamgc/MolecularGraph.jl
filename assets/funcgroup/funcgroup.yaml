@@ -73,6 +73,7 @@
 
 #24
 - key: ">C=O"
+  have: ["=C<"]
   query: "[CX3H0;!R]=[O]"
 
 #25
@@ -82,6 +83,7 @@
 
 #27
 - key: "-COOH (acid)"
+  have: [">C=O"]
   query: "[CX3H0](=[OX1])[OH]"
 
 #30
