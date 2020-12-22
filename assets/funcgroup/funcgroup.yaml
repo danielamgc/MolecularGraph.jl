@@ -75,3 +75,7 @@
 #27
 - key: "-COOH (acid)"
   query: "[CX3H0](=[OX1])[OH]"
+
+#30
+- key: "-NH2"
+  query: "[NX3H2]"
