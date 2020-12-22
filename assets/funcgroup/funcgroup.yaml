@@ -87,3 +87,11 @@
 #32
 - key: ">NH (ring)"
   query: "[NX3H1;R]"
+
+#34
+- key: "-N="
+  query: "[NX2H0;!R]"
+
+#35
+- key: "-N= (ring)"
+  query: "[NX2H0;R]"
