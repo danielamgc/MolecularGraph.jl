@@ -13,6 +13,10 @@
 - key: ">CH-"
   query: "[CX4H1;!R]"
 
+#5
+- key: "=CH2"
+  query: "[CX3H2;!R]"
+  
 #12
 - key: ">CH- (ring)"
   query: "[CX4H1;R]"
