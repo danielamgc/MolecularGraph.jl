@@ -10,47 +10,39 @@
 - key: "−CH2−"
   query: "[CX1H2;!R]"
 
-# 3
+# 3 duda
 - key: "-CH(ring)"
   query: "[CH1D3;R]"
 
 # 11
-- key: "-CH2(ring)"
+- key: "-CH2-(ring)"
   query: "[CH2D2;R]"
 
 # 6
 - key: "=CH-"
   query: "[CH1D2;!R]"
 
-# 42
-- key: "−S− (ring)"
-  query: "[SX2;R]"
 
  # Sulfur
 
  # Non-ring groups
-# 1
+# 39
 - key: "-SH"
   query: "[H1SD1]"
 
-# 2
+# 40
 - key: "-S- (non-ring)"
   query: "[#16X2H0;!R]"
 
-# 3
+# 41
 - key: "-S- (ring)"
   query: "[#16X2H0;R]"
 
 
 
- #41
- # - key: "−S−"
- #   query: "[SX2;!R]"
-
-
 #
-#- key: "-O-"
-#  query: "[OH0D2;!R]"
+- key: "-O-"
+  query: "[OH0D2;!R]"
 
 # 22
 # - key: "-O-(ring)"
