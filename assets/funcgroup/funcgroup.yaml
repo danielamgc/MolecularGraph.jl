@@ -21,6 +21,14 @@
 - key: "=CH-"
   query: "[CH1D2;!R]"
 
+#7
+- key: "=CH-"
+  query: "[CX3H0;!R]"
+
+#8
+- key: "=C="
+  query: "[*]=[CX2H0;!R]=[*]"
+
 
  # Sulfur
 
