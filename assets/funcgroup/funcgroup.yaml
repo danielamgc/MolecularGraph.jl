@@ -92,6 +92,10 @@
   have: [">C=O"]
   query: "[CX3H0](=[OX1])[OH]"
 
+#28
+- key: "=O"
+  query: "[OX1H0;!C]"  
+
 #30
 - key: "-NH2"
   query: "[NX3H2]"
