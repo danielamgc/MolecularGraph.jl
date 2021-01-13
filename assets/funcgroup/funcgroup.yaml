@@ -118,4 +118,5 @@
 
 #37
 - key: "-CN"
-  query: "[NX3][CX4]"
+#  query: "[NX3][CX4]"
+  query: "[ND2][CD3]"
