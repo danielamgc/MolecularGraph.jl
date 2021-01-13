@@ -119,5 +119,5 @@
 #37
 - key: "-CN"
 #  query: "[NX3][CX4]"
-  query: "[NCX1]"
-#  query: "[NCD1]"
+#  query: "[NCX1]"
+  query: "[NCD1]"
