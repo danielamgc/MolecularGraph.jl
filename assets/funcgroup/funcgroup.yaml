@@ -94,7 +94,7 @@
 
 #28
 - key: "=O"
-  query: "[OX1H0;!C]"  
+  query: "[OX1H0;!C]"
 
 #30
 - key: "-NH2"
@@ -115,3 +115,7 @@
 #35
 - key: "-N= (ring)"
   query: "[#7X2H0;R]"
+
+#37
+- key: "-CN"
+  query: "[NX3][CX4]"
