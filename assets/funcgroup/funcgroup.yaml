@@ -8,7 +8,8 @@
 #2
 - key: "−CH2−"
 #  query: "[CX1H2;!R]"
-  query: "[#6X2H2;!R]"
+  query: "[#6H2D2;!R]"
+#  query: "[CH2D2;!R]"
 
 #3
 - key: ">CH-"
