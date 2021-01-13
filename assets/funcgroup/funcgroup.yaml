@@ -61,6 +61,10 @@
 - key: "-S- (ring)"
   query: "[#16X2H0;R]"
 
+#21
+- key: "-OH (phenol)"
+  query: "[a][OHD1]"
+
 
 
 #22
