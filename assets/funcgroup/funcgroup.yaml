@@ -90,6 +90,7 @@
 #25
 - key: ">C=O (ring)"
 #  query: "[CX3H0;R]=[O]"
+  have: ["=O"]
   query: "[#6X3H0;R]=[O]"
 
 #27
