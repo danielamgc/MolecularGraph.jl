@@ -84,12 +84,12 @@
 #24
 - key: ">C=O"
   have: ["=C<"]
-  have: ["=O"]
   query: "[CX3H0;!R]=[O]"
 
 #25
 - key: ">C=O (ring)"
 #  query: "[CX3H0;R]=[O]"
+  have: ["=C< (ring)"]
   have: ["=O"]
   query: "[#6X3H0;R]=[O]"
 
