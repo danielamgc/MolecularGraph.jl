@@ -123,10 +123,10 @@
 
 #37
 - key: "-CN"
-#  query: "[NX3][CX4]"
+  query: "[NX1H0]#[CX2]"
 #  query: "[NCX1]"
 #  query: "[#7X1C1]"
 #  query: "[NX1C1]"
 #  query: "[CX2]#[NX1]"
 #  query: "[#6X2]#[#7X1]"
-  query: "[CX2NX1H0]"
+#  query: "[CX2NX1H0]"
