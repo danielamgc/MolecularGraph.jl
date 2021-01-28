@@ -127,4 +127,4 @@
 #  query: "[NCX1]"
 #  query: "[#7X1C1]"
 #  query: "[NX1C1]"
-  query: "[NX1]#[CX2]"
+  query: "[CX2]#[NX1]"
