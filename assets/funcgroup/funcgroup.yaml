@@ -77,9 +77,7 @@
 - key: "-O- (ring)"
   query: "[OX2H0;R]"
 
-#28
-- key: "=O"
-  query: "[OX1H0;!C]"
+
 
 #24
 - key: ">C=O"
@@ -98,6 +96,9 @@
   have: [">C=O"]
   query: "[CX3H0](=[OX1])[OH]"
 
+#28
+- key: "=O"
+  query: "[OX1H0;!C]"
 
 
 #30
