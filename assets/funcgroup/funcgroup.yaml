@@ -81,19 +81,19 @@
 
 #24
 - key: ">C=O"
-  have: ["=C<"]
+#  have: ["=C<"]
   query: "[CX3H0;!R]=[O]"
 
 #25
 - key: ">C=O (ring)"
 #  query: "[CX3H0;R]=[O]"
-  have: "[=C< (ring)]"
-  have: "[=O]"
+#  have: "[=C< (ring)]"
+#  have: "[=O]"
   query: "[#6X3H0;R]=[O]"
 
 #27
 - key: "-COOH (acid)"
-  have: [">C=O"]
+#  have: [">C=O"]
   query: "[CX3H0](=[OX1])[OH]"
 
 #28
