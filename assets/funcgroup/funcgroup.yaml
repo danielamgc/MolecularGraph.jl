@@ -97,8 +97,8 @@
   query: "[CX3H0](=[OX1])[OH]"
 
 #28
-- key: "=O"
-  query: "[OX1H0;!C]"
+#- key: "=O"
+#  query: "[OX1H0;!C]"
 
 
 #30
