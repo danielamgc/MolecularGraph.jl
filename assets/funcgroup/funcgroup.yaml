@@ -63,70 +63,77 @@
 - key: "-S- (ring)"
   query: "[#16X2H0;R]"
 
-#21
+# Oxigen groups
+- key: "-OH (alcohol)"
+  query: "[A][OHD1]"
+
 - key: "-OH (phenol)"
   query: "[a][OHD1]"
 
-
-
-#22
-- key: "-O-"
+- key: "-O- (non-ring)"
   query: "[OX2H0;!R]"
 
-#23
 - key: "-O- (ring)"
-  query: "[OX2H0;R]"
+  query: "[OD2;R]"
 
+- key: ">C=O (non-ring)"
+  have: ["=C<"]
+  query: "[CH0D3;!R]=[OX1]"
 
-
-#24
-- key: ">C=O"
-#  have: ["=C<"]
-  query: "[CX3H0;!R]=[O]"
-
-#25
 - key: ">C=O (ring)"
-#  query: "[CX3H0;R]=[O]"
-#  have: "[=C< (ring)]"
-#  have: "[=O]"
-  query: "[#6X3H0;R]=[O]"
+  have: ["=C< (ring)"]
+  any: ["[cD3]=O","[CH0D3;R]=O"]
 
-#27
+- key: "O=CH- (aldehyde)"
+  have: ["=CH-"]
+  query: "[OX1H0]=[CH1D2;!R]"
+
 - key: "-COOH (acid)"
-#  have: [">C=O"]
-  query: "[CX3H0](=[OX1])[OH]"
+  have: ["-OH (alcohol)",">C=O (non-ring)"]
+  query: "O=[C][OH]"
 
-#28
-- key: "=O"
-  query: "[OX1H0;!C]"
+- key: "-COO- (ester)"
+  have: [">C=O (non-ring)","-O- (non-ring)"]
+  query: "[CH0](=O)[OH0][A;C]"
 
+- key: "=O (other)"
+  query: "[OX1H0;!$([OX1H0]=[#6X3]);!$([OX1H0]=[#7X3][#8])]"
 
-#30
+# Non-ring groups
+# 1
 - key: "-NH2"
-  query: "[NX3H2]"
+  query: "[H2ND1;!R]"
 
-#31
-- key: ">NH"
+# 2
+- key: ">NH (non-ring)"
   query: "[NX3H1;!R]"
 
-#32
+# 3
 - key: ">NH (ring)"
-  query: "[NX3H1;R]"
+  query: "[#7X3H1;R]"
 
-#34
-- key: "-N="
+# 4
+- key: ">N- (non-ring)"
+  query: "[H0ND3;!R]"
+
+# 5
+- key: "-N= (non-ring)"
   query: "[#7X2H0;!R]"
 
-#35
+# 6
 - key: "-N= (ring)"
   query: "[#7X2H0;R]"
 
-#37
+# 7
+- key: "=NH"
+  query: "[#7X2H1]"
+
+# 8
 - key: "-CN"
-  query: "[NX1H0]#[CX2]"
-#  query: "[NCX1]"
-#  query: "[#7X1C1]"
-#  query: "[NX1C1]"
-#  query: "[CX2]#[NX1]"
-#  query: "[#6X2]#[#7X1]"
-#  query: "[CX2NX1H0]"
+  #have: ["≡C-"]
+  query: "[#6X2]#[#7X1H0]"
+
+# 9
+- key: "-NO2"
+  have: [">N- (non-ring)","=O (other)"]
+  query: "O=[ND3]=O"
